@@ -37,7 +37,7 @@
   }
   
   .colored-text {
-    color: #FF4500; /* Adjust the color to match your design */
+    color: #FF4500;
   }
   
   .hero-subtext {
@@ -64,7 +64,7 @@
     padding: 10px 20px;
     font-size: 1em;
     color: white;
-    background-color: #ff5c1c; /* Adjust the background color to match your design */
+    background-color: #ff5c1c;
     border: none;
     border-radius: 50px;
     cursor: pointer;
