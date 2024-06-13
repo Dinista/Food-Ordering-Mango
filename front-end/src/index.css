@@ -1,10 +1,8 @@
-@font-face {
-  font-family: 'CustomFont';
-  src: url('./assets/font.ttf') format('woff2')
-}
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 
 :root {
-  font-family:  CustomFont, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Varela Round", sans-serif, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 

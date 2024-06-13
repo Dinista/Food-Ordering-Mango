@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'CustomFont';
+  src: url('./assets/font.ttf') format('woff2')
+}
+
+
 .hero-section {
     display: flex;
     padding: 50px;
@@ -20,9 +26,10 @@
     width: 30%;
   }
   
-  h1 {
+  .text-content h1 {
     font-size: 3.5em;
     margin-bottom: 20px;
+    font-family: 'CustomFont';
   }
   
   .bold-text {
