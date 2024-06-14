@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Custom';
+    src: url('./assets/font.ttf') format('woff2')
+  }
+
+.order-container{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 7em;
+}
+
+.order-content {
+    display: flex;
+    width: 80vw;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.order-text{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 8em;
+}
+
+.order-text h1{
+    font-family: "Custom";
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+}

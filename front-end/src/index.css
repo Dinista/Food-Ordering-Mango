@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
+
 :root {
   font-family: "Lexend","Varela Round", sans-serif, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -14,6 +15,8 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x : hidden;
+  
 }
 
 a {

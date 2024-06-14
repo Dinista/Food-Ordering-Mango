@@ -98,9 +98,10 @@
 }
 
 .PlayStore-pic{
-    width: 3em;
+    width: 2.5em;
     padding: 0.1em;
     margin-top: 2em;
+    cursor: pointer;
 }
 
 .star-app{
