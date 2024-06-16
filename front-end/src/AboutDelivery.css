@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('./assets/font.ttf') format('woff2')
+  }
+
+.delivery-section{
+    width: 100vw;
+    margin-top: 5em;
+    position: relative;
+    background-color: rgb(39, 39, 39);
+    background-image: url('./assets/pattern.png');
+    background-size: 25em;
+}
+.delivery-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.delivery-bold-text{
+    color: white;
+}
+
+.delivery-text-content{
+    font-family: CustomFont;
+    font-size: 0.8em;
+    width: 30em;
+}
+
+.delivery-subtext{
+    font-family: "Lexend";
+    color: white;
+}
+
+.delivery-image-content{
+    display: flex;
+    justify-content: center;
+    align-items: bottom;
+    margin-top: 15em;
+}
+
+.delivery-main-image{
+    width: 25em;
+}
