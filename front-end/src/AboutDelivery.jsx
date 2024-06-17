@@ -1,6 +1,8 @@
 import React from 'react';
 import './AboutDelivery.css';
-import mainImage from './assets/pizza-pic.png'; // Ensure you have the main image in your project
+import mainImage from './assets/logo(orange).svg';
+import foodImage from './assets/pizza-pic.png';
+import mongoImage from './assets/mango-pic.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { faShoppingBag } from '@fortawesome/free-solid-svg-icons';
@@ -20,26 +22,28 @@ const AboutDelivery = () => {
             <p>When you are too lazy to cook, we are just a click away!</p>
           </div>
         </div>
-        <div className="delivery-image-content">
-          <img src={mainImage} alt="Main" className="delivery-main-image" />
-         </div> 
-          <div className="info-cards">
-            <div className="info-card">
-              <FontAwesomeIcon className = "ico-info" icon={faShoppingBag} size='lg'/>
-              <div className='text-info-card'>
-                <p className="info-title">Pick up</p>
-                <p className="info-description">Pickup delivery at your doorstep</p>
+          <div className="info-cards-delivery">
+            <div className="info-card-delivery">
+              <FontAwesomeIcon className = "ico-info-delivery" icon={faShoppingBag} size='lg'/>
+              <div className='text-info-card-delivery'>
+                <p className="info-title-delivery">Pick up</p>
+                <p className="info-description-delivery">Pickup delivery at your doorstep</p>
               </div>
             </div>
-            <div className="info-card">
-              <FontAwesomeIcon className="ico-info"icon={faUtensils} size= "lg"/>
-              <div className='text-info-card'>
-                <p className="info-title">Dine in</p>
-                <p className="info-description">Enjoy your food fresh, crispy.</p>
+            <div className="info-card-delivery">
+              <FontAwesomeIcon className="ico-info-delivery"icon={faUtensils} size= "lg"/>
+              <div className='text-info-card-delivery'>
+                <p className="info-title-delivery">Dine in</p>
+                <p className="info-description-delivery">Enjoy your food fresh, crispy.</p>
               </div>
             </div>
           </div>
       </div>
+      <div className="delivery-image-content">
+          <img src={mainImage} alt="Logo" className="delivery-logo-image" />
+          <img src={foodImage} alt="Food" className="delivery-main-image" />
+      </div>
+      <img src={mongoImage} alt="Mongo" className="delivery-mongo-image" />
     </section>
   );
 }
