@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Custom';
+    src: url('./assets/font.ttf') format('woff2')
+  }
+
+
+.trans-container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8em;
+}
+
+.trans-content {
+    display: flex;
+    width: 80vw;
+    flex-direction: column;
+}
+
+.trans-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Custom';
+}
+
+.card-trans {
+    background-color: black;
+}

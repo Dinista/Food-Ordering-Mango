@@ -15,8 +15,11 @@
 }
 
 .card-description {
+    display: flex;
     font-weight: 300;
     font-size: 1em;
+    width: 60%;
+    text-align: center;
 }
 
 .card-button {

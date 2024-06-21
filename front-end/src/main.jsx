@@ -6,6 +6,7 @@ import HeroSection from './HeroPage.jsx'
 import MobileBanner from './MobileBanner.jsx'
 import OrderBanner from './OrderBanner.jsx';
 import AboutDelivery from './AboutDelivery.jsx';
+import Transport from './Transporting.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -14,5 +15,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <MobileBanner/>
     <OrderBanner/> 
     <AboutDelivery/>
+    <Transport />
   </React.StrictMode>,
 )

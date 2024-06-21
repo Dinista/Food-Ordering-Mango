@@ -17,17 +17,20 @@ const OrderBanner = () => {
                     <Card 
                         image={food1} 
                         title="Masala Chicken" 
-                        description="Crispy fries with sauce and pepper" 
+                        description="Crispy fries with sauce and pepper"
+                        order = {true}
                     />
                     <Card 
                         image={food2} 
                         title="Soft Beverages" 
-                        description="Delicious drinks of fresh fuits, all very braitfull and color" 
+                        description="Delicious drinks of fresh fuits, all very braitfull and color"
+                        order = {true}
                     />
                     <Card 
                         image={food3} 
                         title="French Fries" 
-                        description="Crispy fries with sauce and pepper" 
+                        description="Crispy fries with sauce and pepper"
+                        order = {true}
                     />
                 </div>
             </div>
