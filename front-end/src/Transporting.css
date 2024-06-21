@@ -23,8 +23,23 @@
     justify-content: center;
     align-items: center;
     font-family: 'Custom';
+    margin-bottom: 2em;
 }
 
-.card-trans {
-    background-color: black;
+.trans-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5em;
+    height: 5em;
+    padding: 4em;
+    box-shadow: 0 0px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 100%;
+    margin-bottom: 2.5em;
+    outline: 8px dashed rgba(0, 0, 0, 0.753);
+    outline-offset: 15px;
+}
+
+.trans-card > img{
+    width: 200%;
 }

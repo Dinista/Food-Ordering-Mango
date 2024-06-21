@@ -6,7 +6,7 @@ import './HeroCard.css'; // Create a CSS file for styling
 const Card = ({ image, title, description, order }) => {
     return (
         <div className="card">
-            <div className="card-image">
+            <div className={"card-image" + (!order ? ' trans-card': '')}>
                 <img src={image} alt={title} />
             </div>
             <h3 className="card-title">{title}</h3>
