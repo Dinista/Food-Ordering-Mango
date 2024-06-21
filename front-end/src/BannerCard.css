@@ -1,0 +1,40 @@
+.banner-card-container{
+    --square: 25em;
+    --rec-height: 9em;
+    --rec-width: 25em;
+}
+
+.banner-card-container{
+    width: var(--square);
+    height: var(--square);
+    background-color: tomato;
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.116);
+    
+}
+
+.title-banner-menu{
+    width: 40%;
+    font-size: 1.5em;
+    font-family: "Custom";
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.price-banner-menu{
+    font-family: "Custom";
+    font-size: 2em;
+    height: fit-content;
+    padding: 0.3em;
+    border-radius: 10%;
+    outline: 2px dashed rgb(253, 47, 47);
+    color: rgb(253, 47, 47);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
