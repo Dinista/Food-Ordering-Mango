@@ -9,7 +9,7 @@ const Transport = () => {
     return (
         <section className="trans-container">
             <div className="trans-content">
-                <div className="trans-text dashed-line">
+                <div className="trans-text">
                     <h1>How we <span className="colored-text">Serve </span>you</h1>
                 </div>
                 <div className="card-container">

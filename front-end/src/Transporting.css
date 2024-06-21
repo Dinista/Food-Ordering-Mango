@@ -33,10 +33,10 @@
     width: 5em;
     height: 5em;
     padding: 4em;
-    box-shadow: 0 0px 100px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0px 100px rgba(0, 0, 0, 0.24);
     border-radius: 100%;
     margin-bottom: 2.5em;
-    outline: 8px dashed rgba(0, 0, 0, 0.753);
+    outline: 5px dashed rgba(0, 0, 0, 0.514);
     outline-offset: 15px;
 }
 
