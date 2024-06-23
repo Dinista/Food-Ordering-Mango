@@ -8,6 +8,7 @@ import OrderBanner from './OrderBanner.jsx';
 import AboutDelivery from './AboutDelivery.jsx';
 import Transport from './Transporting.jsx';
 import BannerMenu from './BannerMenu.jsx'
+import Footer from './Footer.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -18,6 +19,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <AboutDelivery/>
     <Transport />
     <BannerMenu />
-  
+    <Footer/>
   </React.StrictMode>,
 )

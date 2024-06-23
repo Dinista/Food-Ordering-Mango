@@ -1,0 +1,17 @@
+.footer-container{
+    position: relative;
+    height: 25em;
+    margin-top: 10em;
+    background-color: #257c3f;
+}
+
+.footer-container::after{
+    position: absolute;
+    content: '';
+    background-size: 25em;
+    background-image: url('./assets/pattern.png');
+    height: 100%;
+    width: 100%;
+    left: 0;
+    filter: invert(90%) sepia(48%) saturate(305%) hue-rotate(71deg) brightness(100%) contrast(95%);
+}
