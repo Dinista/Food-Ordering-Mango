@@ -65,3 +65,52 @@
     top: 30%;
     left: 80%;
 }
+
+.logos-footer5{
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    padding: 0.6em;
+    background-color: white;
+    border-radius: 100%;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.158);
+    top: 20%;
+    left: 90%;
+}
+
+.logos-footer6{
+    position: absolute;
+    width: 4em;
+    height: 4em;
+    padding: 0.6em;
+    background-color: white;
+    border-radius: 100%;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.158);
+    top: 70%;
+    left: 85%;
+}
+
+.footer-content{
+    position: absolute;
+    left: 30%;
+    width: 30em;
+    top: 0%;
+    z-index: 2;
+}
+
+.footer-content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo{
+    width: 10em;
+}
+
+.footer-content-container > h1 {
+    font-size: 2em;
+    font-family: 'CustomFont';
+    text-align: center;
+}

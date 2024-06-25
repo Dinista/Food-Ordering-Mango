@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
 
+@font-face {
+  font-family: 'CustomFont';
+  src: url('./assets/font.ttf') format('woff2')
+}
+
 :root {
   font-family: "Lexend","Varela Round", sans-serif, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
