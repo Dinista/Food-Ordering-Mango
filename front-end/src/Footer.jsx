@@ -15,6 +15,7 @@ const Footer = () => {
             </div>
             <div>
                 <img src={logo4} className='logos-footer4'></img>
+                <img src={logo5} className='logos-footer4'></img>
             </div>
         </section>
     );
