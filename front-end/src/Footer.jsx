@@ -24,8 +24,9 @@ const Footer = () => {
             <div className='footer-content'>
                 <div className='footer-content-container'>
                     <img src={logoMango} className='footer-logo' ></img>
-                    <h1>Enjoy 1000+ foods from 400 restaurants</h1>
-                    <button>Order Now</button>
+                    <h1><p>Enjoy <span className='black-text'> 1000+ </span> foods from</p>
+                        <p><span className='yellow-text'>400</span> restaurants</p></h1>
+                    <button className='footer-button'>Order Now</button>
                 </div>
             </div>
         </section>
