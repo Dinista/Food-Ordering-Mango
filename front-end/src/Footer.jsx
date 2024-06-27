@@ -7,6 +7,9 @@ import logo4 from './assets/unnamed(4).png'
 import logo5 from './assets/unnamed(5).png'
 import logo6 from './assets/unnamed(6).png'
 import logoMango from './assets/logo.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
+
 
 const Footer = () => {
     return (
@@ -29,6 +32,27 @@ const Footer = () => {
                     <button className='footer-button'>Order Now</button>
                 </div>
             </div>
+            <footer className='rodape'>
+                <section className='rodape-content'>
+                    <div>
+                        <img src={logoMango}></img>
+                    </div>
+                    <div>
+                        <p className='footer-text'>2024 | Project for Study Only</p>
+                    </div>
+                    <div className='footer-social'>
+                        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faFacebook} size="2x" />
+                        </a>
+                        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faInstagram} size="2x" />
+                        </a>
+                        <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faYoutube} size="2x" />
+                        </a>
+                    </div>
+                </section>
+            </footer>
         </section>
     );
 };
