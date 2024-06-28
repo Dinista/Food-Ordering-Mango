@@ -42,13 +42,13 @@ const Footer = () => {
                     </div>
                     <div className='footer-social'>
                         <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-                            <FontAwesomeIcon icon={faFacebook} size="2x" />
+                            <FontAwesomeIcon icon={faFacebook} size="lg" />
                         </a>
                         <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-                            <FontAwesomeIcon icon={faInstagram} size="2x" />
+                            <FontAwesomeIcon icon={faInstagram} size="lg" />
                         </a>
                         <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
-                            <FontAwesomeIcon icon={faYoutube} size="2x" />
+                            <FontAwesomeIcon icon={faYoutube} size="lg" />
                         </a>
                     </div>
                 </section>
