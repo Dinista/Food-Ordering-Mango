@@ -38,7 +38,7 @@ const Footer = () => {
                         <img src={logoMango}></img>
                     </div>
                     <div>
-                        <p className='footer-text'>2024 | Project for Study Only</p>
+                        <p className='footer-text'>2024 | Project for <span style={ {color: 'tomato'}}>Study</span> Only</p>
                     </div>
                     <div className='footer-social'>
                         <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
