@@ -1,4 +1,5 @@
-# Mango
+![image](https://github.com/Dinista/Food-Ordering-Mango/blob/main/front-end/src/assets/logo.png)
+
 __Mango__ is a Food Ordering Website created with __JavaScript__ and __React framework__, serving as a project to showcase skills in both __front-end__ and __back-end__ development.
 
 ## Concept
