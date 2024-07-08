@@ -7,3 +7,7 @@ __Mango__ is a Food Ordering Website created with __JavaScript__ and __React fra
 Sleek and user-friendly interface, Mango allows customers to browse through a variety of delicious dishes, place orders seamlessly, and choose convenient delivery options. Using modern Stacks, the website incorporates all the essential features expected from a prominent food delivery platform, such as __Responsive Front-End__, __Authentication Mechanisms__, __Payment Validation__, __Admin Management Control__, __CRUD of Users and Itens__, etc..
 
 ### Interfaces Prototype
+
+<div style= "width: 300px; height: 100px; overflow: hidden;">
+  <img src="https://github.com/Dinista/Food-Ordering-Mango/blob/main/front-end/src/assets/Screenshots/food-ordering-.png" style="width: 550px;" />
+</div>
