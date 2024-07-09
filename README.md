@@ -10,5 +10,5 @@ Sleek and user-friendly interface, Mango allows customers to browse through a va
 
 <div style= "display: flex;">
   <img style= "width: 490px; height: 747px;" src="https://github.com/Dinista/Food-Ordering-Mango/blob/main/front-end/src/assets/Screenshots/HeroPage1.png" style="width: 550px;" />
-  <img style= "width: 490px; height: 747px; " src="https://github.com/Dinista/Food-Ordering-Mango/blob/main/front-end/src/assets/Screenshots/Banners.png" style="width: 550px;" />
+  <img style= "width: 490px; height: 658px; " src="https://github.com/Dinista/Food-Ordering-Mango/blob/main/front-end/src/assets/Screenshots/Banners.png" style="width: 550px;" />
 </div>
