@@ -148,45 +148,27 @@
     font-weight: 500;
   }
   
-  @media (max-width: 768px) {
+
+  @media (min-width: 2560px) {
     .hero-content {
-      flex-direction: column;
+      width: 50vw; /* Adjust for very large screens */
     }
   
-    .text-content, .image-content {
-      width: 100%;
-      padding: 0;
+    .text-content h1 {
+      font-size: 4.5em; /* Adjust font size for 4K screens */
+    }
+  
+    .main-image {
+      width: 40em; /* Adjust image size for 4K screens */
     }
   
     .info-cards {
-      position: static;
-      transform: none;
-      flex-direction: row;
-      justify-content: space-between;
-    }
-  
-    .info-card {
-      margin: 10px;
-      flex: 1;
+      gap: 4em; /* Increase gap between info cards */
     }
   }
   
   @media (max-width: 480px) {
-    h1 {
-      font-size: 1.5em;
-    }
-  
-    .profile-pic {
-      width: 30px;
-      height: 30px;
-    }
-  
-    .search-button {
-      font-size: 0.9em;
-    }
-  
-    .info-card {
-      padding: 5px;
-    }
+    
+
+
   }
-  
