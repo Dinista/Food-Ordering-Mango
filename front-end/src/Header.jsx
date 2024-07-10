@@ -20,7 +20,7 @@ const Header = () => {
             </nav>
             <div href="#profileContainer" className="profile-container">
                 <a href="#profile" className="profile-link">
-                    <img src={profile} alt="Profile" className="profile-pic" />
+                    <img id="pic-header" src={profile} alt="Profile" className="profile-pic" />
                 </a>
                 <h1>Zezinho</h1>
             </div>

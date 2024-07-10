@@ -13,3 +13,9 @@
     align-items: center;
     gap: 3em;
 }
+
+@media (max-width: 480px) {
+    .banner-menu{
+      font-size: 5px;
+    }
+}

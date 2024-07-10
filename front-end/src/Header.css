@@ -66,3 +66,40 @@
     color: rgb(241, 103, 10);
     font-weight: 700;
   }
+
+  @media (max-width: 480px) {
+    .header-container{
+      font-size: 8px;
+    }
+    
+    .logo{
+      left: 2em;
+    }
+
+    .logo-pic{
+      width: 60%;
+    }
+
+    .nav{
+      font-size: 12px;
+      gap: 1.2em;
+      top: 8em;
+      left:auto;
+      right: auto;
+      position: absolute;
+    }
+
+    .profile-container{
+      font-size: 12px;
+      gap: 0px;
+    }
+
+    .profile-container h1{
+      font-size: small;
+    }
+
+    #pic-header{
+      width: 2.5em;
+      height: 2.5em;
+    }
+  }

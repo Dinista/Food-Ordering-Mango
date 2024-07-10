@@ -20,19 +20,21 @@ const HeroSection = () => {
             <span className="bold-text"> Easy </span>
             <span className="colored-text"> Pickup </span>
           </h1>
-          <div className="hero-subtext">
-            <img src={profilePic} alt="Profile" className="profile-pic" />
-            <p>When you are too lazy to cook, we are just a click away!</p>
-          </div>
-          <div className="hero-subtext">
-            <button className="search-button">
-                <FontAwesomeIcon icon={faSearch} />
-                <div className='horizontal-line'></div>
-                <p>Find Restaurants</p>
-            </button>
-            <a href="#order" className="order-link">
-                How to order
-            </a>
+          <div className="hero-subtext-content">
+            <div className="hero-subtext">
+              <img src={profilePic} alt="Profile" className="profile-pic" />
+              <p>When you are too lazy to cook, we are just a click away!</p>
+            </div>
+            <div className="hero-subtext">
+              <button className="search-button">
+                  <FontAwesomeIcon icon={faSearch} />
+                  <div className='horizontal-line'></div>
+                  <p>Find Restaurants</p>
+              </button>
+              <a href="#order" className="order-link">
+                  How to order
+              </a>
+            </div>
           </div>
         </div>
         <div className="image-content">

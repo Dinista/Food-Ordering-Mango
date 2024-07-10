@@ -43,3 +43,25 @@
 .trans-card > img{
     width: 200%;
 }
+
+@media (max-width: 480px) {
+    .trans-container{
+      font-size: 8px;
+    }
+    .trans-card{
+        font-size: 5px;
+    }
+    .trans-content > .card-container{
+        font-size: none;
+        height: 20em;
+        overflow: visible;
+    }
+    
+    .trans-card{
+        outline: 2px dashed rgba(0, 0, 0, 0.514);
+        outline-offset: 2px;
+    }
+    .card-title{
+        font-size: 1.2em;
+    }
+}

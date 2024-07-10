@@ -126,3 +126,29 @@
     color: black;
     cursor: pointer;
 }
+
+@media (max-width: 480px) {
+    .banner-section{
+        font-size: 7px;
+    }
+
+    .banner-container{
+        margin-top: 8em;
+    }
+    .banner-bg{
+        width: 90vw;
+        height: 40em;
+        transform: none;
+    }
+
+    .banner-content > img{
+        border: 3px solid black;
+    }
+
+    .App-feed{
+        transform: none;
+    }
+    .card{
+        font-size: smaller;
+    }
+}

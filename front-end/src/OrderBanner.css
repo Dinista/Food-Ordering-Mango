@@ -33,3 +33,21 @@
     display: flex;
     justify-content: space-around;
 }
+
+@media (max-width: 480px) {
+    .order-container{
+        font-size: 7px;
+    }
+
+    .order-content{
+        font-size: xx-small;
+    }
+
+    .order-text{
+        gap: 2em;
+    }
+    .card-container{
+        width: 85vw;
+        overflow: scroll;
+    }
+}

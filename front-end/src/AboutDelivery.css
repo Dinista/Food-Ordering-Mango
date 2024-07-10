@@ -103,3 +103,20 @@
     top: -3em;
     rotate: 40deg;
 }
+
+
+@media (max-width: 480px) {
+    .delivery-section{
+      font-size: 8px;
+    }
+    .delivery-image-content{
+        font-size: 5px;
+    }
+    .delivery-content{
+        gap: 10em;
+    }
+    
+    .delivery-mongo-image{
+        right: auto;
+    }
+}

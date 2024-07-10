@@ -75,7 +75,7 @@
 
   .horizontal-line{
     padding: 0.5px;
-    height: 35px;
+    height: 2em;
     width: 0.5px;
     background-color: #af370793;
     border-radius: 100%;
@@ -169,6 +169,67 @@
   
   @media (max-width: 480px) {
     
+    .hero-section {
+      font-size: xx-small;
+      padding: 0px;
+      padding-top: 50px;
 
+    }
 
+    .hero-content{
+      flex-direction: column;
+      align-items: start;
+      position: relative;
+    }
+    
+    .text-content{
+      width: 50%;
+    }
+
+    .image-content{
+      position: absolute;
+      right: 0;
+      top: 3em;
+    }
+
+    .main-image {
+      width: 18em;
+    }
+
+    .hero-subtext-content{
+      display: flex;
+      width: 80vw;
+      padding-top: 2.5em;
+    }
+
+    .hero-subtext p{
+      font-size: xx-small;
+    }
+
+    .hero-subtext img{
+      width: 20px;
+      height: 20px;
+    }
+
+    .search-button{
+      height: 5em;
+      width: max-content;
+    }
+
+    .order-link{
+      display: none;
+    }
+    
+    .info-cards{
+      width: 100%;
+      flex-direction: row;
+      justify-content: left;
+      gap: 0;
+      overflow: scroll;
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+    }
+    .info-card{
+      padding: 0;
+    }
   }
